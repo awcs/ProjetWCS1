@@ -1,0 +1,41 @@
+
+    
+footer ul#social_networks {
+    display: flex;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+footer ul#social_networks li.rezo {
+    list-style: none;
+}
+
+footer ul#social_networks li.rezo a {
+    width: 52px;
+    height: 52px;
+    background: #66423A;
+    text-align: center;
+    line-height: 60px;
+    font-size: 35px;
+    margin: 0 3px;
+    display: block;
+    border-radius: 50%;
+    position: relative;
+    overflow: hidden;
+}
+
+footer ul#social_networks li.rezo a .fab{
+    position: relative;
+    color: #fff;
+    transition: .5s;
+}
+
+footer ul#social_networks li.rezo a:hover .fab{
+    transform: rotateY(360deg);
+
+}
+
+
+
+

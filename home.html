@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Blog WCS</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="custom.css">
+    <link rel="stylesheet" href="social_custom.css">
+    <link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Philosopher" rel="stylesheet">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+</head>
+
+
+<body>
+    <div class="container-fluid">
+        <header class="row">
+            <div class="col-md-12">
+                <h1>So many Paris</h1>
+                <img class="logo" src="https://image.ibb.co/crFL7z/logo_paris.png" />
+            </div>
+        </header>
+        
+        <nav> <!-----navbar onglets ----->
+            <ul class="nav nav-tabs" id="myTab">
+                <li class="nav-item">
+                    <a class="nav-link" data-toggle="tab" href="#" id="home">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-toggle="tab" href="#" id="landmarks">Landmarks</a>
+                </li> 
+                <li class="nav-item">
+                    <a class="nav-link" data-toggle="tab" href="#" id="locations">Photos locations</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-toggle="tab" href="#" id="about">About me</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-toggle="tab" href="#" id="contact">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+ 
+    <section> <!-----carousel ----->
+        <div id="carousel-home" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="d-block w-100" src="https://image.ibb.co/nsboue/seine.jpg" alt="slide seine">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="https://image.ibb.co/cK4xnz/moulin_rouge.jpg" alt="slide moulin rouge">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="https://image.ibb.co/gHiCLK/eiffel.jpg" alt="slide tour eiffel">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="https://image.ibb.co/nke8ue/triomphe.jpg" alt="slide arc triomphe">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carousel-home" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carousel-home" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>           
+    </section>
+
+    <section id="timeline"> <!-----timeline events ----->
+        <div class="container mt-5 mb-5">
+            <div class="row">
+                <div class="col-md-6 offset-md-3">
+                    <h4>Events to come</h4>
+                    <ul class="timeline">
+                        <li>
+                            <a target="_blank" href="https://www.maison-objet.com/fr/paris-design-week" id="event">Paris Design Week 2018</a>
+                            <a class="float-right">6 - 15 September, 2018</a>
+                            <p>The Paris Design Week is from 6 to 15 September 2018. For a week, Paris becomes the international capital of design, with more than 100 designers from around the world to exhibit their latest creations, precious objects, in the living room of Maison & Objet Paris. No question of exposing yourself only to the Parc des Expos, they invest hotels, museums, galleries and design schools!
+                            </p>
+                        </li>
+                        <li>
+                            <a target="_blank" href="https://www.paris.fr/nuitblanche" id="event">Nuit Blanche à Paris 2018</a>
+                            <a class="float-right">6, October 2018</a>
+                            <p>As the days decline and fall announces winter, the Nuit Blanche in Paris offers an opportunity to discover the city of light otherwise, under the spell of the night, under the bursts of the moon, neon lights and lights
+                            On the first Saturday in October, artists will travel to the four corners of the city to offer installations, exhibitions, concerts, performances, tours, scenographies and creations that explore all facets of contemporary art and offer a new look at the city.
+                            </p>
+                        </li>
+                        <li>
+                            <a target="_blank" href="https://fiac.com" id="event">FIAC 2018</a>
+                            <a class="float-right">18 - 21 October, 2018</a>
+                            <p>Every year, the International Fair of Contemporary Art, FIAC, brings together the world around 193 art galleries from 25 countries, to present the most emerging artists and emerging artists from their galleries.
+                            A must-attend event on the international art scene, the FIAC allows you to contemplate a panorama of modern art, contemporary art and emerging creation in a rare setting in the French capital, the Grand Palais.
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+    
+    <footer>
+        <ul id="social_networks"> <!-----social networks ----->
+            <li class= rezo><a target="_blank" href='https://facebook.com'><i class="fab fa-facebook-square" aria-hidden="true"></i></a href=#></li>
+            <li class= rezo><a target="_blank" href='https://twitter.com'><i class="fab fa-twitter-square" aria-hidden="true"></i></a href=#></li>
+            <li class= rezo><a target="_blank" href='https://instagram.com'><i class="fab fa-instagram" aria-hidden="true"></i></a href=#></li>
+            <li class= rezo><a target="_blank" href='https://github.com'><i class="fab fa-github-square" aria-hidden="true"></i></a href=#></li> 
+        </ul>
+    </footer>
+
+</body>
+
+</html>
