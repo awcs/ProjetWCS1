@@ -8,7 +8,7 @@
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-        <link rel="stylesheet"  href="global.css" >
+        <link rel="stylesheet"  href="Contact.css" >
     </head>
     <body>
         <div class ="container">
@@ -16,87 +16,76 @@
                 <div class = "col-md-12">
                 </div>            
             </header>
-            <nav>
-                    <ul class="nav nav-tabs" id="myTab" role="tablist">
-                        <li class="nav-item">
-                            <a class="nav-link" id="home-tab" data-toggle="tab" href="#home" aria-controls="home" aria-selected="true">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" id="landmark-tab" data-toggle="tab" href="#" aria-controls="" aria-selected="false">Landmarks</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" id="locations-tab" data-toggle="tab" href="#" aria-controls="" aria-selected="false">Photos locations</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" id="about-tab" data-toggle="tab" href="#" aria-controls="" aria-selected="false">About
-                                me</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" id="contact-tab" data-toggle="tab" href="#" aria-controls="" aria-selected="false">Contact<a>
-                        </li>
-                    </ul>
-                    <div class="tab-content" id="myTabContent">
-                        <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab"></div>
-                        <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab"></div>
-                        <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab"></div>
+            <nav> <!-----navbar ----->
+                <ul class="nav nav-tabs" id="myTab">
+                    <li class="nav-item">
+                        <a class="nav-link" data-toggle="tab" href="#"  id="home">Home
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-toggle="tab" href="#" id="landmarks">Landmarks
+                        </a>
+                    </li> 
+                    <li class="nav-item">
+                        <a class="nav-link" data-toggle="tab" href="#" id="locations">Photos locations
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-toggle="tab" href="#" id="contact">Contact
+                        </a>
+                    </li>
+                </ul>
+                <div class="tab-content" id="myTabContent">
+                    <div class="tab-pane fade" id="home" role="tabpanel" aria-labelledby="home-tab"></div>
+                    <div class="tab-pane fade" id="landmarks" role="tabpanel" aria-labelledby="landmarks-tab"></div>
+                    <div class="tab-pane fade" id="locations" role="tabpanel" aria-labelledby="locations-tab"></div>
+                    <div class="tab-pane fade" id="about" role="tabpanel" aria-labelledby="about-tab"></div>
+                    <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab"></div>
+                </div>
+            </nav>    
+
+
+            <section>
+                    <div class="opa" style="opacity: 0.7; background-color: rgb(189, 224, 235);"></div>
+                
+                
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8" data-form-type="formoid">
+                
+                                    
+                                <form class="mbr-form" action="https://mobirise.com/" method="post" data-form-title="Mobirise Form"><input type="hidden" data-form-email="true" value="zdGVBcNRThcdWUUfI+3PsLnnLtHc8JIdEhub3sFJZu3mJPkE6oxv5FmU79KVvaLjKSmEfsOBbKYj1Cps8hm2o1hmKtkhiOdHe4oDrPZiHdR0Yvomv7W9ZOtj6J4piMeE">
+                                    <div class="row row-sm-offset">
+                                        <div class="col-md-4 multi-horizontal" data-for="name">
+                                            <div class="form-group">
+                                                <label class="form-control-label mbr-fonts-style display-7" for="name-form1-2w">Name</label>
+                                                <input type="text" class="form-control" name="name" data-form-field="Name" required="" id="name-form1-2w">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 multi-horizontal" data-for="email">
+                                            <div class="form-group">
+                                                <label class="form-control-label mbr-fonts-style display-7" for="email">Email</label>
+                                                <input type="email" class="form-control" name="email" data-form-field="Email" required="" id="email-form1-2w">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 multi-horizontal" data-for="phone">
+                                            <div class="form-group">
+                                                <label class="form-control-label mbr-fonts-style display-7" for="phone">Phone</label>
+                                                <input type="tel" class="form-control" name="phone" data-form-field="Phone" id="phone">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="message" data-for="message">
+                                        <label class="form-control-label mbr-fonts-style display-7" for="message">Message</label>
+                                        
+                                    </div>
+                        
+                                    <span class="input-group-btn">
+                                        <textarea type="text" class="form-control" name="message" rows="7" data-form-field="Message" id="message-form1-2w"></textarea>
+                                        <button href="" type="submit" class="button">SEND FORM</button>
+                                    </span>
+                                </form>
+                            </div>
+                        </div>
                     </div>
-
-
-
-
-
-
                     
-
-    
-
-
-                        <div class="container">
-                            <div class="row justify-content-center">
-                                <div class="title col-md-8">
-                                    <h2 class="mbr-section-title align-center pb-3 mbr-fonts-style display-2"><strong>
-                                        CONTACT FORM </strong></h2>
-
-                                </div>
-                            </div>
-                        </div>
-
-
-                        <div class="container">
-                            <div class="row justify-content-center">
-                                <div class="media-container-column col-lg-8" data-form-type="formoid">
-
-                                
-                                        <form class="mbr-form" action="https://mobirise.com/" method="post" data-form-title="Mobirise Form"><input type="hidden" data-form-email="true" value="zdGVBcNRThcdWUUfI+3PsLnnLtHc8JIdEhub3sFJZu3mJPkE6oxv5FmU79KVvaLjKSmEfsOBbKYj1Cps8hm2o1hmKtkhiOdHe4oDrPZiHdR0Yvomv7W9ZOtj6J4piMeE">
-                                            <div class="row row-sm-offset">
-                                                <div class="col-md-4 multi-horizontal" data-for="name">
-                                                    <div class="form-group">
-                                                        <label class="form-control-label mbr-fonts-style display-7" for="name-form1-2w">Name</label>
-                                                        <input type="text" class="form-control" name="name" data-form-field="Name" required="" id="name-form1-2w">
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-4 multi-horizontal" data-for="email">
-                                                    <div class="form-group">
-                                                        <label class="form-control-label mbr-fonts-style display-7" for="email-form1-2w">Email</label>
-                                                        <input type="email" class="form-control" name="email" data-form-field="Email" required="" id="email-form1-2w">
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-4 multi-horizontal" data-for="phone">
-                                                    <div class="form-group">
-                                                        <label class="form-control-label mbr-fonts-style display-7" for="phone-form1-2w">Phone</label>
-                                                        <input type="tel" class="form-control" name="phone" data-form-field="Phone" id="phone-form1-2w">
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="form-group" data-for="message">
-                                                <label class="form-control-label mbr-fonts-style display-7" for="message-form1-2w">Message</label>
-                                                <textarea type="text" class="form-control" name="message" rows="7" data-form-field="Message" id="message-form1-2w"></textarea>
-                                            </div>
-                                
-                                            <span class="input-group-btn">
-                                                <button href="" type="submit" class="btn btn-primary btn-form display-4">SEND FORM</button>
-                                            </span>
-                                        </form>
-                                </div>
-                            </div>
-                        </div>
