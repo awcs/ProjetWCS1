@@ -8,8 +8,10 @@ nav ul li a:hover {
     color: #fff;
     background-color: #DABD38;
 }
-
-section {
+section{
+    font-family: 'Amatic+SC','Philosopher',sans-serif;
+}
+.contact {
     background-image: url("https://image.ibb.co/kPDzje/eiffel_tower_975004_1920.jpg"); 
     position: relative;
     background-attachment: scroll;
