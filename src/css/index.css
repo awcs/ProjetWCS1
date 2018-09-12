@@ -1,3 +1,15 @@
+nav ul li a {
+    font-family: 'Abel', sans-serif;
+    font-size: 26px;
+    color: #121212;
+}
+
+nav ul li a:hover {
+    color: #fff;
+    background-color: #DABD38;
+
+}
+
 header {
     margin-bottom: 40px;
 }
