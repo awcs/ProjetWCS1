@@ -21,13 +21,42 @@ nav ul li a:hover {
 }
 .img-circle {
     border-radius: 50%;
-    position : absolute ;
-    left : 35% ;
-    bottom : 35% ;
+    position : absolute ;  
     width: 50px ;
     height: 50px;
     transition : all 0.5s ease;
 }
+
+.eiffel {
+    left : 36% ;
+    bottom : 49% ;
+}
+
+.arch {
+    left : 36% ;
+    bottom : 65% ;
+}
+
+.louvre {
+    left : 70% ;
+    bottom : 51% ;
+}
+
+.moulin {
+    left : 61% ;
+    bottom : 70% ;
+}
+
+.dame {
+    left : 72% ;
+    bottom : 45% ;
+}
+
+.sacre {
+    left : 69% ;
+    bottom : 79% ;
+}
+
 
 
 .img-circle:hover{
