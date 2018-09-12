@@ -32,6 +32,7 @@ section{
 label{
     position: relative;
     cursor: pointer;
+    color: #fff;
 }
 .message{
     margin: 10px;
