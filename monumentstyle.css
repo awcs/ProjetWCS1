@@ -110,7 +110,7 @@
     }
     .titre h2{
         display: none;
-        }
+    }
     .phone a{
         text-decoration: none;
         color: white;
@@ -121,6 +121,8 @@
 
     } 
     
+   
+    
 }
 
 
@@ -128,18 +130,17 @@
     
     .phone h2{
         display: none;
-
-
     }
     .mask p{
         text-align: justify;
-       
-        
 
-         
+        width: 50%;  
+        position: absolute;  
+        right: 13rem;      
     }
-}
 
+}
+      
 nav ul li a {
     font-family: 'Abel', sans-serif;
     font-size: 26px;
