@@ -91,8 +91,12 @@ footer ul#social_networks li.rezo a .fab{
 
 footer ul#social_networks li.rezo a:hover .fab{
     transform: rotateY(360deg);
-
 }
-#photo {
-    width: 20%;
+
+#card img {
+    position: relative;
+    display:block;
+    width: 40%;
+    margin: auto;
+
 }
