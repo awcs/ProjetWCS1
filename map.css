@@ -9,16 +9,17 @@ nav ul li a:hover {
     background-color: #DABD38;
 
 }
-
+/*
 .map.container-fluid {
 
-    position: relative;
+    position: absolute;
 }
 
 .map-image {
     width : 1500px ;
     background-color : lightgrey ;
 }
+/*
 .img-circle {
     border-radius: 50%;
     position : absolute ;  
