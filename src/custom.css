@@ -98,7 +98,9 @@ ul.timeline li p {
     font-family: 'Abel', sans-serif;
     font-size: 16px;
     margin-top: 6px;
-    footer ul#social_networks {
+}
+
+footer ul#social_networks {
         display: flex;
         position: absolute;
         left: 50%;
