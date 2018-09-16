@@ -19,7 +19,6 @@ header img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-
 }
 nav.navbar.navbar-expand-lg.navbar-light.bg-light {
     padding: 0;
@@ -43,7 +42,7 @@ a.nav-item.nav-link {
 }
 
 .navbar-nav a.nav-item.nav-link::after {
-    content: " / ";
+    content: "   / ";
 }
 .navbar-nav a.nav-item.nav-link:hover {
     color: #121212;
@@ -127,14 +126,13 @@ ul.timeline li p {
 footer {
     background-color:#FF804D;
     display: block;
-    height: 200px;
-    opacity: 0.8;
-    
+    height: 300px;
+    opacity: 0.8; 
 }
 
 footer ul {
     text-align: center;
-    padding-top: 30px;
+    padding-top: 60px;
     list-style: none;
 }
 footer ul li a{
@@ -153,42 +151,45 @@ footer ul li hr {
     color: #FFF;
     height
 }
-/*footer ul#social_networks {
-        display: flex;
-        position: absolute;
-        left: 50%;
-        transform: translate(-50%,-50%);
-    }
-    
-    footer ul#social_networks li.rezo {
-        list-style: none;
-    }
-    
-    footer ul#social_networks li.rezo a {
-        width: 52px;
-        height: 52px;
-        background: #EDAE01;
-        text-align: center;
-        line-height: 60px;
-        font-size: 35px;
-        margin: 0 3px;
-        display: block;
-        border-radius: 50%;
-        position: relative;
-        overflow: hidden;
-    }
-    
-    footer ul#social_networks li.rezo a .fab{
-        position: relative;
-        color: #fff;
-        transition: .5s;
-    }
-    
-    footer ul#social_networks li.rezo a:hover .fab{
-        transform: rotateY(360deg);
-    
-    }*/
-    
+
+footer ul#social_networks {
+    display: flex;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+footer ul#social_networks li.rezo {
+    list-style: none;
+}
+
+footer ul#social_networks li.rezo a {
+    width: 52px;
+    height: 52px;
+    /*background: #66423A;*/
+    text-align: center;
+    line-height: 60px;
+    font-size: 35px;
+    margin: 0 3px;
+    display: block;
+    border-radius: 50%;
+    position: relative;
+    overflow: hidden;
+}
+
+footer ul#social_networks li.rezo a .fab{
+    position: relative;
+    color: #fff;
+    transition: .5s;
+}
+
+footer ul#social_networks li.rezo a:hover .fab{
+    transform: rotateY(360deg);
+    color: #121212;
+
+}
+
+
     
     
     
