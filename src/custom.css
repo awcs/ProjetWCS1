@@ -2,6 +2,8 @@ body {
     padding: 0;
     margin: 0;
 }
+
+/*********************** HEADER *****************************/
 header {
     margin-bottom: 40px;
 }
@@ -20,43 +22,49 @@ header img {
     margin-left: auto;
     margin-right: auto;
 }
-nav.navbar.navbar-expand-lg.navbar-light.bg-light {
-    padding: 0;
-}
-nav #navbarNavAltMarkup.collapse.navbar-collapse {
-    padding: 0;
-    background-color: #FF804D;
-    height: 50px;
-    opacity: 0.8;
+
+/*********************** NAVBAR *****************************/
+nav.navbar.navbar-expand-md.yellow {
+    background: #FF804D;
+    opacity: 0.6;
 }
 
-a.nav-item.nav-link {
-    margin-right: 20px;
-}
-
-.navbar-nav a.nav-item.nav-link {
-    color:#FFF;
+.nav-item a {
+    margin-right: 30px;
+    color: #FFF;
     font-size: 14px;
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
 }
 
-.navbar-nav a.nav-item.nav-link::after {
-    content: "   / ";
-}
-.navbar-nav a.nav-item.nav-link:hover {
+.nav-item a:hover {
     color: #121212;
+    text-decoration-line: none;
 }
 
+.nav-item a::after {
+    content: "/";
+    margin: 0 0rem 0 1.5rem;
+}
+
+@media screen and (max-width: 768px) {
+    .nav-item a::after {
+        display: none;
+    }
+}
+
+/*********************** CAROUSEL *****************************/
 .carousel-inner {
     height: 800px;
     width: auto;
     overflow: hidden;
 }
+
 .carousel-item img {
     height: 700px;
     object-fit: cover;
 }
+
 section#timeline h4 {
     font-family: 'Montserrat', sans-serif;
     color: #FF804D;
@@ -70,11 +78,14 @@ section#timeline h4 hr {
     color: #FF804D;
     size: 1px;
 }
+
+/*********************** TIMELINE *****************************/
 ul.timeline {
     list-style-type: none;
     position: relative;
     margin-bottom: 90px;
 }
+
 ul.timeline:before {
     content: ' ';
     background: #d4d9df;
@@ -85,57 +96,64 @@ ul.timeline:before {
     height: 100%;
     z-index: 400;
 }
-ul.timeline > li {
+
+ul.timeline>li {
     margin: 20px 0;
     padding-left: 20px;
 }
-ul.timeline > li:before {
+
+ul.timeline>li:before {
     content: ' ';
-    background: white;
+    background: #FF804D;
+    opacity: 0.8;
     display: inline-block;
     position: absolute;
     border-radius: 50%;
-    border: 2px solid #121212;
+    /*border: 2px solid #121212;*/
     left: 20px;
     width: 20px;
     height: 20px;
     z-index: 400;
 }
-ul.timeline li a#event{
+
+ul.timeline li a#event {
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
     font-size: 16px;
     letter-spacing: 2px;
     color: #121212;
 }
+
 ul.timeline li a#event:hover {
     color: #FF804D;
-    color:;
     text-decoration: none;
 }
 
 ul.timeline li a.float-right {
     color: #121212;
 }
+
 ul.timeline li p {
     font-family: 'Abel', sans-serif;
     font-size: 18px;
     margin-top: 6px;
 }
 
+/*********************** FOOTER *****************************/
 footer {
-    background-color:#FF804D;
+    background-color: #FF804D;
     display: block;
     height: 300px;
-    opacity: 0.8; 
+    opacity: 0.8;
 }
 
 footer ul {
     text-align: center;
-    padding-top: 60px;
+    padding-top: 45px;
     list-style: none;
 }
-footer ul li a{
+
+footer ul li a {
     font-size: 14px;
     font-family: 'Montserrat', sans-serif;
     color: #FFF;
@@ -149,14 +167,13 @@ footer ul li a:hover {
 
 footer ul li hr {
     color: #FFF;
-    height
 }
 
 footer ul#social_networks {
     display: flex;
     position: absolute;
     left: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
 }
 
 footer ul#social_networks li.rezo {
@@ -166,7 +183,6 @@ footer ul#social_networks li.rezo {
 footer ul#social_networks li.rezo a {
     width: 52px;
     height: 52px;
-    /*background: #66423A;*/
     text-align: center;
     line-height: 60px;
     font-size: 35px;
@@ -177,21 +193,14 @@ footer ul#social_networks li.rezo a {
     overflow: hidden;
 }
 
-footer ul#social_networks li.rezo a .fab{
+footer ul#social_networks li.rezo a .fab {
     position: relative;
     color: #fff;
     transition: .5s;
 }
 
-footer ul#social_networks li.rezo a:hover .fab{
+footer ul#social_networks li.rezo a:hover .fab {
     transform: rotateY(360deg);
     color: #121212;
 
 }
-
-
-    
-    
-    
-    
-
