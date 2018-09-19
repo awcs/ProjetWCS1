@@ -98,7 +98,7 @@ function regular_map() {
 	  });
 
 	marker_eiffel .addListener('click', function() {
-        document.getElementById("switch").innerHTML="<img class = \"col-md-12 mt-5 \" src='https://image.ibb.co/bxsaEp/eiffel_tower_1280022_1280.jpg'>";
+        document.getElementById("switch").innerHTML="<img class = \"col-md-12 mt-5 photo\" src='https://image.ibb.co/bxsaEp/eiffel_tower_1280022_1280.jpg'>";
         
 
       });

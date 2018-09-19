@@ -27,11 +27,6 @@ nav.navbar.navbar-expand-md.yellow {
     margin: 0 0rem 0 1.5rem;
 }
 
-@media screen and (max-width: 768px) {
-    .nav-item a::after {
-        display: none;
-    }
-}
 
 .photo {
     filter: grayscale(100%);
@@ -71,10 +66,13 @@ footer {
 }
 
 footer ul {
+    padding : 0 ;
+    margin : 0 ;
     text-align: center;
     padding-top: 45px;
     list-style: none;
 }
+
 
 footer ul li a {
     font-size: 14px;
@@ -137,4 +135,22 @@ a[href^="https://maps.google.com/maps"]{display:none !important}
 }
 .gmnoprint div {
     background:none !important;
+}
+
+@media screen and (max-width: 768px) {
+    .nav-item a::after {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    div div div div {
+        height: 650px !important;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .reduce {
+        height: 650px !important;
+    }
 }
