@@ -1,25 +1,27 @@
-
 body {
     padding: 0;
     margin: 0;
 }
 
 /*********************** HEADER *****************************/
+header {
+    margin-bottom: 40px;
+}
 
-#Contact {
+header h1 {
     text-align: center;
-    font-family: 'Montserrat','Philosopher', sans-serif;
-    font-size: 35px;
-    color: #FF804D;
+    font-family: 'Philosopher', sans-serif;
+    font-size: 55px;
+    color: #121212;
     margin-top: 20px;
-/*    margin-bottom: 20px; */
-    letter-spacing: 6px;
+    margin-bottom: 20px;
 }
 
-#Contact p hr{
-    size : 1px;
+header img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
-
 
 /*********************** NAVBAR *****************************/
 nav.navbar.navbar-expand-md.yellow {
@@ -51,82 +53,91 @@ nav.navbar.navbar-expand-md.yellow {
     }
 }
 
-/*********************** ABOUT ME *****************************/
-div.row{
-    padding-top: 50px;
-    padding-right: 10px;
-    padding-bottom: 40px;
-    padding-left: 10px;
+/*********************** CAROUSEL *****************************/
+.carousel-inner {
+    height: 800px;
+    width: auto;
+    overflow: hidden;
 }
 
-h4{
-    font-family: 'Montserrat';
+.carousel-item img {
+    height: 700px;
+    object-fit: cover;
+}
+
+section#timeline h4 {
+    font-family: 'Montserrat', sans-serif;
+    color: #FF804D;
+    font-size: 40px;
+    letter-spacing: 6px;
+    text-align: center;
+    margin-bottom: 90px;
+}
+
+section#timeline h4 hr {
+    color: #FF804D;
+    size: 1px;
+}
+
+/*********************** TIMELINE *****************************/
+ul.timeline {
+    list-style-type: none;
+    position: relative;
+    margin-bottom: 90px;
+}
+
+ul.timeline:before {
+    content: ' ';
+    background: #d4d9df;
+    display: inline-block;
+    position: absolute;
+    left: 29px;
+    width: 2px;
+    height: 100%;
+    z-index: 400;
+}
+
+ul.timeline>li {
+    margin: 20px 0;
+    padding-left: 20px;
+}
+
+ul.timeline>li:before {
+    content: ' ';
+    background: #FF804D;
+    opacity: 0.8;
+    display: inline-block;
+    position: absolute;
+    border-radius: 50%;
+    /*border: 2px solid #121212;*/
+    left: 20px;
+    width: 20px;
+    height: 20px;
+    z-index: 400;
+}
+
+ul.timeline li a#event {
+    font-family: 'Montserrat', sans-serif;
     font-weight: bold;
     font-size: 16px;
     letter-spacing: 2px;
     color: #121212;
 }
 
-.col-md-4 img {
-    width: 70%;
-    margin-bottom: 30px;
-    margin-top: 30px;
+ul.timeline li a#event:hover {
+    color: #FF804D;
+    text-decoration: none;
 }
 
-p{
-    font-family: 'Abel';
-    color: #121212;
-
-}
-/*********************** CONTACT *****************************/
-
-label.form-control-label.mbr-fonts-style.display-7{
-    font-size: 20px;
-}
-
-
-input#name-form1-2w.form-control{
-    border-color: #FF804D;
+ul.timeline li a.float-right {
     color: #121212;
 }
 
-input#email-form1-2w.form-control{
-    border-color: #FF804D;
-    color: #121212;
-
+ul.timeline li p {
+    font-family: 'Abel', sans-serif;
+    font-size: 18px;
+    margin-top: 6px;
 }
-input#phone-form1-2w.form-control{
-    border-color: #FF804D;
-    color: #121212;
-}
-textarea#message-form1-2w.form-control{
-    border-color: #FF804D;
-    color: #121212;
-}
-
-button.btn.btn-info.btn-sm.btn-form.display-4{
-    background: #FFF;
-    border-color:#FF804D;
-    border-width: 2px;
-    margin: 15px;
-    font-family: 'Abel';
-    color: #121212;
-    font-size: 17px;
-}
-button.btn.btn-info.btn-sm.btn-form.display-4:hover {
-    background: #FF804D;
-    border-color: #FFF;
-    border-width: 2px;
-    margin: 15px;
-    font-family: 'Abel';
-    color: #fff;
-    font-size: 17px;
-}
-
-label.form-control-label.mbr-fonts-style.display-7{
-    font-family: 'Abel';
-}
-
 
 /*********************** FOOTER *****************************/
 footer {
@@ -149,6 +160,7 @@ footer ul li a {
     font-family: 'Montserrat', sans-serif;
     color: #FFF;
     list-style-type: none;
+    margin: auto;
 }
 
 footer ul li a:hover {
@@ -165,7 +177,6 @@ footer ul#social_networks {
     position: absolute;
     left: 50%;
     transform: translate(-50%, -50%);
-
 }
 
 footer ul#social_networks li.rezo {
@@ -185,19 +196,14 @@ footer ul#social_networks li.rezo a {
     overflow: hidden;
 }
 
-
 footer ul#social_networks li.rezo a .fab {
-
     position: relative;
     color: #fff;
     transition: .5s;
 }
-
 
 footer ul#social_networks li.rezo a:hover .fab {
     transform: rotateY(360deg);
     color: #121212;
 
 }
-
-
