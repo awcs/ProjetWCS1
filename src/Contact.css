@@ -1,0 +1,203 @@
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+/*********************** HEADER *****************************/
+
+#Contact {
+    text-align: center;
+    font-family: 'Montserrat','Philosopher', sans-serif;
+    font-size: 35px;
+    color: #FF804D;
+    margin-top: 20px;
+/*    margin-bottom: 20px; */
+    letter-spacing: 6px;
+}
+
+#Contact p hr{
+    size : 1px;
+}
+
+
+/*********************** NAVBAR *****************************/
+nav.navbar.navbar-expand-md.yellow {
+    background: #FF804D;
+    opacity: 0.6;
+}
+
+.nav-item a {
+    margin-right: 30px;
+    color: #FFF;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+.nav-item a:hover {
+    color: #121212;
+    text-decoration-line: none;
+}
+
+.nav-item a::after {
+    content: "/";
+    margin: 0 0rem 0 1.5rem;
+}
+
+@media screen and (max-width: 768px) {
+    .nav-item a::after {
+        display: none;
+    }
+}
+
+/*********************** ABOUT ME *****************************/
+div.row{
+    padding-top: 50px;
+    padding-right: 10px;
+    padding-bottom: 40px;
+    padding-left: 10px;
+}
+
+h4{
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size: 16px;
+    letter-spacing: 2px;
+    color: #121212;
+}
+
+.col-md-4 img {
+    width: 70%;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+p{
+    font-family: 'Abel';
+    color: #121212;
+
+}
+/*********************** CONTACT *****************************/
+
+label.form-control-label.mbr-fonts-style.display-7{
+    font-size: 20px;
+}
+
+
+input#name-form1-2w.form-control{
+    border-color: #FF804D;
+    color: #121212;
+}
+
+input#email-form1-2w.form-control{
+    border-color: #FF804D;
+    color: #121212;
+
+}
+input#phone-form1-2w.form-control{
+    border-color: #FF804D;
+    color: #121212;
+}
+textarea#message-form1-2w.form-control{
+    border-color: #FF804D;
+    color: #121212;
+}
+
+button.btn.btn-info.btn-sm.btn-form.display-4{
+    background: #FFF;
+    border-color:#FF804D;
+    border-width: 2px;
+    margin: 15px;
+    font-family: 'Abel';
+    color: #121212;
+    font-size: 17px;
+}
+button.btn.btn-info.btn-sm.btn-form.display-4:hover {
+    background: #FF804D;
+    border-color: #FFF;
+    border-width: 2px;
+    margin: 15px;
+    font-family: 'Abel';
+    color: #fff;
+    font-size: 17px;
+}
+
+label.form-control-label.mbr-fonts-style.display-7{
+    font-family: 'Abel';
+}
+
+
+/*********************** FOOTER *****************************/
+footer {
+    background-color: #FF804D;
+    display: block;
+    height: 300px;
+    opacity: 0.8;
+}
+
+footer ul {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    padding-top: 45px;
+    list-style: none;
+}
+
+footer ul li a {
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    color: #FFF;
+    list-style-type: none;
+}
+
+footer ul li a:hover {
+    text-decoration-line: none;
+    color: #121212;
+}
+
+footer ul li hr {
+    color: #FFF;
+}
+
+footer ul#social_networks {
+    display: flex;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+footer ul#social_networks li.rezo {
+    list-style: none;
+}
+
+footer ul#social_networks li.rezo a {
+    width: 52px;
+    height: 52px;
+    text-align: center;
+    line-height: 60px;
+    font-size: 35px;
+    margin: 0 3px;
+    display: block;
+    border-radius: 50%;
+    position: relative;
+    overflow: hidden;
+}
+
+
+footer ul#social_networks li.rezo a .fab {
+
+    position: relative;
+    color: #fff;
+    transition: .5s;
+}
+
+
+footer ul#social_networks li.rezo a:hover .fab {
+    transform: rotateY(360deg);
+    color: #121212;
+
+}
+
+
