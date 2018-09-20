@@ -62,13 +62,13 @@ div.row{
 h4{
     font-family: 'Montserrat';
     font-weight: bold;
-    font-size: 16px;
+    font-size: 24px;
     letter-spacing: 2px;
     color: #121212;
 }
 
 .col-md-4 img {
-    width: 70%;
+    width: 80%;
     margin-bottom: 30px;
     margin-top: 30px;
 }
@@ -76,18 +76,19 @@ h4{
 p{
     font-family: 'Abel';
     color: #121212;
+    font-size: 20px;
 
 }
 /*********************** CONTACT *****************************/
 
 hr{
     width: 8%;
-    color: #FF804D;
+    border-color: #FF804D;
 }
 
 
 label.form-control-label.mbr-fonts-style.display-7{
-    font-size: 20px;
+    font-size: 22px;
 }
 
 
@@ -117,7 +118,7 @@ button.btn.btn-info.btn-sm.btn-form.display-4{
     margin: 15px;
     font-family: 'Abel';
     color: #121212;
-    font-size: 17px;
+    font-size: 22px;
 }
 button.btn.btn-info.btn-sm.btn-form.display-4:hover {
     background: #FF804D;
@@ -126,7 +127,7 @@ button.btn.btn-info.btn-sm.btn-form.display-4:hover {
     margin: 15px;
     font-family: 'Abel';
     color: #fff;
-    font-size: 17px;
+    font-size: 22px;
 }
 
 label.form-control-label.mbr-fonts-style.display-7{
