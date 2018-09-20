@@ -4,6 +4,7 @@ body {
     margin: 0;
 }
 
+/*********************** HEADER *****************************/
 
 #Contact {
     text-align: center;
@@ -61,22 +62,35 @@ div.row{
 h4{
     font-family: 'Montserrat';
     font-weight: bold;
-    font-size: 16px;
+    font-size: 24px;
     letter-spacing: 2px;
     color: #121212;
 }
 
-.col-md-5 img {
-    width: 40%;
-}
 .col-md-4 img {
-    width: 40%;
+    width: 80%;
+    margin-bottom: 30px;
+    margin-top: 30px;
 }
 
 p{
     font-family: 'Abel';
+    color: #121212;
+    font-size: 20px;
+
 }
 /*********************** CONTACT *****************************/
+
+hr{
+    width: 8%;
+    border-color: #FF804D;
+}
+
+
+label.form-control-label.mbr-fonts-style.display-7{
+    font-size: 22px;
+}
+
 
 input#name-form1-2w.form-control{
     border-color: #FF804D;
@@ -86,6 +100,7 @@ input#name-form1-2w.form-control{
 input#email-form1-2w.form-control{
     border-color: #FF804D;
     color: #121212;
+
 }
 input#phone-form1-2w.form-control{
     border-color: #FF804D;
@@ -98,11 +113,12 @@ textarea#message-form1-2w.form-control{
 
 button.btn.btn-info.btn-sm.btn-form.display-4{
     background: #FFF;
-    border-color: rgb(226, 76, 16);
+    border-color:#FF804D;
     border-width: 2px;
     margin: 15px;
     font-family: 'Abel';
     color: #121212;
+    font-size: 22px;
 }
 button.btn.btn-info.btn-sm.btn-form.display-4:hover {
     background: #FF804D;
@@ -110,7 +126,8 @@ button.btn.btn-info.btn-sm.btn-form.display-4:hover {
     border-width: 2px;
     margin: 15px;
     font-family: 'Abel';
-    color: #121212;
+    color: #fff;
+    font-size: 22px;
 }
 
 label.form-control-label.mbr-fonts-style.display-7{
