@@ -19,12 +19,12 @@ function regular_map() {
 	var map = new google.maps.Map(document.getElementById("map-container"),
 		var_mapoptions);
 		
-	map.setOptions({styles: mapJson ,draggable: true, zoomControl: false, scrollwheel: false, disableDoubleClickZoom: true, fullscreenControl: false, mapTypeControl: false });
+	map.setOptions({streetViewControl: false, styles: mapJson ,draggable: true, zoomControl: false, scrollwheel: false, disableDoubleClickZoom: true, fullscreenControl: false, mapTypeControl: false });
 	
 	  var marker_arch = new google.maps.Marker({
       position: arch,
       map: map,
-      title: 'Triumph Arch',
+      title: 'Arc de Triomphe',
       icon : 'http://maps.google.com/mapfiles/ms/icons/orange-dot.png',
      
       
@@ -35,35 +35,35 @@ function regular_map() {
     var marker_louvre = new google.maps.Marker({
         position: louvre,
         map: map,
-        title: 'Louvre',
+        title: 'Musée du Louvre',
         icon : 'http://maps.google.com/mapfiles/ms/icons/orange-dot.png'
     }); 
 
     var marker_sacre = new google.maps.Marker({
         position: sacre,
         map: map,
-        title: 'sacre',
+        title: 'Sacré Coeur',
         icon : 'http://maps.google.com/mapfiles/ms/icons/orange-dot.png'
     });  
 
     var marker_dame = new google.maps.Marker({
         position: dame,
         map: map,
-        title: 'dame',
+        title: 'Notre Dame',
         icon : 'http://maps.google.com/mapfiles/ms/icons/orange-dot.png'
     });  
 
     var marker_moulin = new google.maps.Marker({
         position: moulin,
         map: map,
-        title: 'moulin',
+        title: 'Moulin Rouge',
         icon : 'http://maps.google.com/mapfiles/ms/icons/orange-dot.png'
     });  
 
     var marker_eiffel = new google.maps.Marker({
         position: eiffel,
         map: map,
-        title: 'eiffel',
+        title: 'Tour Eiffel',
         icon : 'http://maps.google.com/mapfiles/ms/icons/orange-dot.png'
         
     });  
@@ -281,7 +281,7 @@ function regular_map() {
           ]
         }
       ]
-    
+
 // Initialize maps
 google.maps.event.addDomListener(window, 'load', regular_map);
 
