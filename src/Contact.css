@@ -80,6 +80,12 @@ p{
 }
 /*********************** CONTACT *****************************/
 
+hr{
+    width: 8%;
+    color: #FF804D;
+}
+
+
 label.form-control-label.mbr-fonts-style.display-7{
     font-size: 20px;
 }
