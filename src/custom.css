@@ -148,6 +148,8 @@ footer {
 }
 
 footer ul {
+    padding: 0;
+    margin: 0;
     text-align: center;
     padding-top: 45px;
     list-style: none;
@@ -158,6 +160,7 @@ footer ul li a {
     font-family: 'Montserrat', sans-serif;
     color: #FFF;
     list-style-type: none;
+    margin: auto;
 }
 
 footer ul li a:hover {
