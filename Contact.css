@@ -4,10 +4,6 @@ body {
 }
 
 /*********************** HEADER *****************************/
-header {
-    margin-bottom: 40px;
-}
-
 #Contact {
     text-align: center;
     font-family: 'Montserrat','Philosopher', sans-serif;
@@ -69,17 +65,23 @@ h4{
     color: #121212;
 }
 
-.col-md-5 img {
-    width: 40%;
-}
 .col-md-4 img {
-    width: 40%;
+    width: 70%;
+    margin-bottom: 30px;
+    margin-top: 30px;
 }
 
 p{
     font-family: 'Abel';
+    color: #121212;
+
 }
 /*********************** CONTACT *****************************/
+
+label.form-control-label.mbr-fonts-style.display-7{
+    font-size: 20px;
+}
+
 
 input#name-form1-2w.form-control{
     border-color: #FF804D;
@@ -89,6 +91,7 @@ input#name-form1-2w.form-control{
 input#email-form1-2w.form-control{
     border-color: #FF804D;
     color: #121212;
+
 }
 input#phone-form1-2w.form-control{
     border-color: #FF804D;
@@ -101,11 +104,12 @@ textarea#message-form1-2w.form-control{
 
 button.btn.btn-info.btn-sm.btn-form.display-4{
     background: #FFF;
-    border-color: rgb(226, 76, 16);
+    border-color:#FF804D;
     border-width: 2px;
     margin: 15px;
     font-family: 'Abel';
     color: #121212;
+    font-size: 17px;
 }
 button.btn.btn-info.btn-sm.btn-form.display-4:hover {
     background: #FF804D;
@@ -113,7 +117,8 @@ button.btn.btn-info.btn-sm.btn-form.display-4:hover {
     border-width: 2px;
     margin: 15px;
     font-family: 'Abel';
-    color: #121212;
+    color: #fff;
+    font-size: 17px;
 }
 
 label.form-control-label.mbr-fonts-style.display-7{
