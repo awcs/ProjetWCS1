@@ -207,3 +207,16 @@ footer ul#social_networks li.rezo a:hover .fab {
     color: #121212;
 
 }
+
+@media screen and (max-width: 768px) {
+    ul.timeline li a#event {
+    text-decoration-line: underline;
+    
+    }
+    }
+    
+@media screen and (max-width: 768px) {
+    ul.timeline li a.float-right {
+    display: none;
+    }
+    }

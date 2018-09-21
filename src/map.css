@@ -152,5 +152,6 @@ a[href^="https://maps.google.com/maps"]{display:none !important}
 @media screen and (max-width: 768px) {
     .reduce {
         height: 650px !important;
+        margin-left : 60px !important;
     }
 }

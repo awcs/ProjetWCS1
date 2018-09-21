@@ -87,11 +87,6 @@ hr{
 }
 
 
-label.form-control-label.mbr-fonts-style.display-7{
-    font-size: 22px;
-}
-
-
 input#name-form1-2w.form-control{
     border-color: #FF804D;
     color: #121212;
@@ -131,8 +126,16 @@ button.btn.btn-info.btn-sm.btn-form.display-4:hover {
 }
 
 label.form-control-label.mbr-fonts-style.display-7{
-    font-family: 'Abel';
-}
+    font-size: 22px;
+    font-family: 'Montserrat','Philosopher', sans-serif;
+    }
+    
+label.form-control-label.mbr-fonts-style.display-7:hover{
+    font-size: 22px;
+    font-weight: bold;
+    color: #FF804D;
+    font-family: 'Montserrat','Philosopher', sans-serif;
+    }
 
 
 /*********************** FOOTER *****************************/
