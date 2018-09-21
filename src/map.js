@@ -71,35 +71,35 @@ function regular_map() {
     
 	marker_arch.addListener('click', function() {
         document.getElementById("switch").innerHTML="<img class = \"col-md-12 mt-5 photo\" src='https://image.ibb.co/eQZjS9/arc_de_triomphe_1283422_1920.jpg'>";
-        
+        myFunction("873px","650px");
 
 	  });
 
 	marker_louvre.addListener('click', function() {
         document.getElementById("switch").innerHTML="<img class = \"col-md-12 mt-5 photo\" src='https://image.ibb.co/ig0cEp/louvre_102840_1280.jpg'>";
-        
+        myFunction("873px","650px");
 
 	  });
 
 	marker_sacre.addListener('click', function() {
         document.getElementById("switch").innerHTML="<img class = \"col-md-12 mt-5 photo\" src='https://image.ibb.co/g4zW4p/sacre_couer_356123_1280.jpg'>";
-        
+        myFunction("873px","650px");
 	  });
 
 	marker_dame.addListener('click', function() {
         document.getElementById("switch").innerHTML="<img class = \"col-md-12 mt-5 photo\" src='https://image.ibb.co/fhU179/cathedral_3599931_1920.jpg'>";
-        
+        myFunction("873px","650px");
 
 	  });
 
 	marker_moulin.addListener('click', function() {
         document.getElementById("switch").innerHTML="<img class = \"col-md-12 mt-5 photo\" src='https://image.ibb.co/dUw3LU/moulin_rouge_1050325_1920.jpg'>";
-        
+        myFunction("873px","650px");
 	  });
 
 	marker_eiffel .addListener('click', function() {
         document.getElementById("switch").innerHTML="<img class = \"col-md-12 mt-5 photo\" src='https://image.ibb.co/bxsaEp/eiffel_tower_1280022_1280.jpg'>";
-        
+        myFunction("873px","650px");
 
       });
       
@@ -285,3 +285,15 @@ function regular_map() {
 // Initialize maps
 google.maps.event.addDomListener(window, 'load', regular_map);
 
+function myFunction(heightCardMax, heightCardMin) {
+  if(window.innerWidth >= 768) {
+  document.getElementById("cardDescription").style.height = heightCardMax;
+  } else {
+  document.getElementById("cardDescription").style.height = heightCardMin;
+  }
+  
+  }
+  
+  
+  
+  
